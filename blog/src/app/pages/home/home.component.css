@@ -14,13 +14,11 @@ header {
   justify-content: center;
 }
 
-/* Big card ocupa mais espaço (ex: 60%) */
 .articles_main {
   flex: 2;
   margin-right: 10px;
 }
 
-/* Small cards ocupam menos (ex: 40%) */
 .articles_others {
   flex: 1;
   display: flex;
