@@ -8,7 +8,6 @@
     <app-big-card />
   </div>
   <div class="articles_others">
-    <app-small-card />
-    <app-small-card />
+    <app-small-card *ngFor="let i of [1, 2, 3]"></app-small-card>
   </div>
 </div>

@@ -1,3 +1,11 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .container_articles {
   margin-top: 20px;
 
@@ -6,10 +14,16 @@
   justify-content: center;
 }
 
-header {
-  width: 100%;
+/* Big card ocupa mais espaço (ex: 60%) */
+.articles_main {
+  flex: 2;
+  margin-right: 10px;
+}
+
+/* Small cards ocupam menos (ex: 40%) */
+.articles_others {
+  flex: 1;
   display: flex;
-  justify-content: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  flex-direction: column;
+  justify-content: space-between;
 }
